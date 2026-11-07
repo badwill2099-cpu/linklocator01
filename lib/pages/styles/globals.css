@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, system-ui, sans-serif;
+  background: #0f0f12;
+  color: #eaeaea;
+}
+.container { max-width: 720px; margin: 0 auto; padding: 24px 16px; }
+h1 { font-size: 22px; }
+input, button {
+  width: 100%; padding: 12px; margin: 6px 0;
+  border-radius: 8px; border: 1px solid #333;
+  background: #1a1a1f; color: #eaeaea; font-size: 16px;
+}
+button {
+  background: #4f46e5; border: none; font-weight: 600;
+  cursor: pointer;
+}
+button:hover { background: #4338ca; }
+.card {
+  background: #1a1a1f; border: 1px solid #262630;
+  border-radius: 10px; padding: 14px; margin: 10px 0;
+}
+.muted { color: #888; font-size: 13px; }
+a { color: #818cf8; }
+.map { height: 320px; border-radius: 10px; margin-top: 12px; }
